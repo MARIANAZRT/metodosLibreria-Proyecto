@@ -1,8 +1,8 @@
-from libreria.archivo import leer_archivo
-from libreria.gramatica import lenguaje_a_interpretar
-from libreria.busqueda import ejecutar_busqueda
-from libreria.resumen import generar_resumen, generar_relevante
-from libreria.audio import los_resultados_pueden_ser_reproducidos_en_audio
+from LIBRERIA.archivo import leer_archivo
+from LIBRERIA.gramatica import lenguaje_a_interpretar
+from LIBRERIA.busqueda import ejecutar_busqueda
+from LIBRERIA.resumen import generar_resumen, generar_relevante
+from LIBRERIA.audio import los_resultados_pueden_ser_reproducidos_en_audio
 
 COMANDOS = {
     "resumen": lambda p, c: generar_resumen(c),
